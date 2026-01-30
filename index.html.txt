@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Perso</title>
+    <link rel="stylesheet" href="style.css"> <!-- CSS externe -->
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur ma page personnelle</h1>
+    </header>
+
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Je m'appelle KOUAKOU Alexis Ayedess. Je suis passionné par le développement et le design, et j'adore créer des projets qui allient créativité et technologie.</p>
+    </section>
+
+    <section id="passion">
+        <h2>Ma passion</h2>
+        <p>Ma passion principale est l'intelligence artificielle et la création numérique. J'aime explorer comment la tech peut transformer nos vies.</p>
+        <button id="passionBtn">Cliquez ici pour un message secret</button>
+        <p id="message" style="display:none;">Merci de t'intéresser à ma passion !</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Alexis Ayedess</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- JS externe -->
+</body>
+</html>
